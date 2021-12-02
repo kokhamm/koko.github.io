@@ -1,0 +1,77 @@
+.forwho-block {
+  padding: 10rem 0 6rem 0;
+}
+.forwho-block_header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+}
+.forwho-block__cards {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 945px) {
+  .forwho-block__cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.forwho-block__card:nth-child(1) {
+  margin-top: 6rem;
+  margin-right: 2rem;
+}
+@media (max-width: 945px) {
+  .forwho-block__card:nth-child(1) {
+    margin: 0 0 5rem 0;
+  }
+}
+.forwho-block__card:nth-child(2) {
+  margin-right: 2rem;
+}
+@media (max-width: 945px) {
+  .forwho-block__card:nth-child(2) {
+    margin: 0 0 5rem 0;
+  }
+}
+.forwho-block__card:nth-child(3) {
+  margin-top: 6rem;
+  margin-right: 2rem;
+}
+@media (max-width: 945px) {
+  .forwho-block__card:nth-child(3) {
+    margin: 0;
+  }
+}
+.forwho-block__card {
+  width: 100%;
+}
+@media (max-width: 945px) {
+  .forwho-block__card {
+    width: 47%;
+  }
+}
+.forwho-block__card_header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #242121;
+  margin-top: 2rem;
+}
+@media (max-width: 1220px) {
+  .forwho-block__card_header {
+    margin-top: 1rem;
+  }
+}
+.forwho-block__card_text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+  opacity: 0.6;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,109 @@
+.nav_down{
+    padding:13rem 0 8rem 0 ;
+}
+.nav-bottom{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	&__logo_text{
+		font-family: 'Roboto', sans-serif;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.14em;
+        color: #000000;
+        opacity: 0.8;
+	}
+	&__politics-confident_text{
+		display: block;
+		font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #332A2A;
+        opacity: 0.4;
+        text-decoration: none;
+        &-top{
+            margin-bottom: 2rem;
+        }
+	}
+	&__block-list{
+        // width: 50rem;
+        display: flex;
+        justify-content: space-between;
+        @media(max-width: 945px){
+                display: block;
+            }
+        &_text{
+            @media(max-width: 945px){
+                display: block;
+                margin-bottom: 2rem;
+            }
+            &:nth-child(1){
+                margin-right: 6rem;
+                @media (max-width: 1220px) {
+                    margin-right: 3rem;
+                }
+            }
+            &:nth-child(2){
+                margin-right: 6rem;
+                @media (max-width: 1220px) {
+                    margin-right: 3rem;
+                }
+            }
+            &:nth-child(3){
+                margin-right: 6rem;
+                @media (max-width: 1220px) {
+                    margin-right: 3rem;
+                }
+            }
+		font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        color: #332A2A;
+        opacity: 0.7;
+        text-decoration: none;
+        }
+    }
+	&__phone{
+
+		&_btn{
+		display: block;
+		width: 252px;
+        height: 54px;
+        border: 2px solid  #FFBA0C;
+        border-radius: 15px;
+        background-color: #ffffff;
+        margin-bottom: 2rem;
+        @media (max-width: 1220px) {
+                    width: 212px;
+                    height: 44px;
+                }
+        &-text{
+        	font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 13px;
+
+        }
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        &:hover {
+        background: #FFBA0C;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    }
+	
+	    &_text{
+		font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 13px;
+        margin:0 0 0 5rem;
+	}
+    }
+	
+}
+

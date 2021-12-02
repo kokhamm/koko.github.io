@@ -1,0 +1,113 @@
+.nav_down {
+  padding: 13rem 0 8rem 0 ;
+}
+.nav-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-bottom__logo_text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.14em;
+  color: #000000;
+  opacity: 0.8;
+}
+.nav-bottom__politics-confident_text {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #332A2A;
+  opacity: 0.4;
+  text-decoration: none;
+}
+.nav-bottom__politics-confident_text-top {
+  margin-bottom: 2rem;
+}
+.nav-bottom__block-list {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 945px) {
+  .nav-bottom__block-list {
+    display: block;
+  }
+}
+.nav-bottom__block-list_text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #332A2A;
+  opacity: 0.7;
+  text-decoration: none;
+}
+@media (max-width: 945px) {
+  .nav-bottom__block-list_text {
+    display: block;
+    margin-bottom: 2rem;
+  }
+}
+.nav-bottom__block-list_text:nth-child(1) {
+  margin-right: 6rem;
+}
+@media (max-width: 1220px) {
+  .nav-bottom__block-list_text:nth-child(1) {
+    margin-right: 3rem;
+  }
+}
+.nav-bottom__block-list_text:nth-child(2) {
+  margin-right: 6rem;
+}
+@media (max-width: 1220px) {
+  .nav-bottom__block-list_text:nth-child(2) {
+    margin-right: 3rem;
+  }
+}
+.nav-bottom__block-list_text:nth-child(3) {
+  margin-right: 6rem;
+}
+@media (max-width: 1220px) {
+  .nav-bottom__block-list_text:nth-child(3) {
+    margin-right: 3rem;
+  }
+}
+.nav-bottom__phone_btn {
+  display: block;
+  width: 252px;
+  height: 54px;
+  border: 2px solid  #FFBA0C;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+@media (max-width: 1220px) {
+  .nav-bottom__phone_btn {
+    width: 212px;
+    height: 44px;
+  }
+}
+.nav-bottom__phone_btn-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+}
+.nav-bottom__phone_btn:hover {
+  background: #FFBA0C;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-bottom__phone_text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 13px;
+  margin: 0 0 0 5rem;
+}
